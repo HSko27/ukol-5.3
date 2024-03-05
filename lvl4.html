@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="inputs" />
+    <button onclick="submit()">Submit</button>
+
+    <script>
+      function submit() {
+        const result = document.getElementById("inputs").value;
+        switch (result) {
+          case "1":
+            console.log("pondeli");
+            break;
+          case "2":
+            console.log("utery");
+            break;
+          case "3":
+            console.log("streda");
+            break;
+          case "4":
+            console.log("ctvrtek");
+            break;
+          case "5":
+            console.log("patek");
+            break;
+          case "6":
+            console.log("sobota");
+            break;
+          case "7":
+            console.log("nedele");
+            break;
+          default:
+            console.log("Invalid input");
+        }
+      }
+    </script>
+  </body>
+</html>
